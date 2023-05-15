@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate Monthly Paycheck</title>
+
+</head>
+<body>
+    <h2>Calculate Monthly Paycheck</h2>
+    <form>
+        <label for="employeeName">Employee Name:</label>
+        <input type="text" id="employeeName" name="employeeName"><br><br>
+
+        <label for="grossIncome">Gross Income:</label>
+        <input type="number" step="0.01" id="grossIncome" name="grossIncome"><br><br>
+
+        <button type="button" onclick="calculatePaycheck()">Calculate</button>
+    </form>
+
+    <p id="stateTax"></p>
+    <p id="socialSecurity"></p>
+    <p id="pagIbig"></p>
+    <p id="philHealth"></p>
+    <p id="retirementPlan"></p>
+    <p id="netPay"></p>
+
+    <script src="index.js"></script> 
+</body>
+</html>
